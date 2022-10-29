@@ -1,7 +1,6 @@
 site_name: Admin panel
 theme:
   name: material
-  custom_dir: overrides
   palette:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
@@ -15,3 +14,7 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
