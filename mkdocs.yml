@@ -1,3 +1,13 @@
 site_name: Admin panel
 theme:
   name: material
+  palette:
+    primary: black
+extra:
+  alternate:
+    - name: English
+      link: /en/
+      lang: en
+    - name: Русский
+      link: /ru/
+      lang: ru

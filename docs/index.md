@@ -1,6 +1,9 @@
-# Welcome to MkDocs
+# Intruduction
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+
+[name of panel] is the content management system that adapts to any project. Made for developers, designers, creators and clients created with the help of  [Angular framework](https://angular.io)
+
+
 
 ## Commands
 
