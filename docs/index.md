@@ -1,8 +1,3 @@
 # Intruduction
 
-nav:
-  - Section:
-    - section/index.md
-    - Page 1: section/page-1.md
-    ...
-    - Page n: section/page-n.md
+ARRYSA -  is the content management system that adapts to any project. Made for developers, designers, creators and clients.
