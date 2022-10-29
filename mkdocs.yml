@@ -2,18 +2,9 @@ site_name: ARYSSA
 theme:
   name: material
   palette:
-    # Palette toggle for light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
-    # Palette toggle for dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
+    scheme: black
+  # custom dir
+  custom_dir: overrides
 # markodown f.e note alert bug ...
 markdown_extensions:
   - admonition
@@ -21,7 +12,6 @@ markdown_extensions:
   - pymdownx.superfences
 nav:
   - index.md
-  - Back:
-      - Getting Started: back/intruduction.md
-
-  - documentation.md
+  - Backend:
+      - Getting Started: sections/back/intruduction.md
+  - How to edit documentation: sections/additional_info/documentation.md
