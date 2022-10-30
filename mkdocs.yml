@@ -29,5 +29,5 @@ markdown_extensions:
 nav:
   - index.md
   - Backend:
-      - Getting Started: sections/back/intruduction.md
+      - Getting Started: sections/back/introduction.md
   - How to edit documentation: sections/additional_info/documentation.md
