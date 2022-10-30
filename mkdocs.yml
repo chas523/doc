@@ -21,13 +21,20 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to system preference
+extra_css:
+  - stylesheets/extra.css
 # markodown f.e note alert bug ...
 markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - tables
 nav:
   - index.md
+  - Docker:
+      - Overview: sections/docker/overview.md
+      - Commands: sections/docker/commands.md
+      - Getting Started: sections/docker/start.md
   - Backend:
-      - Getting Started: sections/back/intruduction.md
+      - Getting Started: sections/back/start.md
   - How to edit documentation: sections/additional_info/documentation.md
